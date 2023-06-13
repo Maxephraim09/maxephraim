@@ -1,0 +1,189 @@
+body {
+    background: url(./6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+  /* header */
+  header{
+    background: rgb(44, 62, 80, 0.7);
+    color: white;
+    padding: 10px;
+    min-height: 70px;
+    border-bottom: white 3px solid;
+    border-radius: 20px;
+}
+ /* menus */  
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+
+    
+}
+
+
+header ul{
+    margin-top: -30px;
+    border-top: white;
+    text-align: center;
+}
+
+header li{
+    float: center;
+    display: inline;
+    padding: 0 20px 0 20px;
+
+}
+
+/* title */
+  .maxe{
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 200px;
+    margin-top: -120px;
+    color: white;
+  }
+
+  .exp{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 650px;
+    margin-top: -70px;
+    color: red;
+
+  }
+
+  /* sign up form */
+.SignUpBox {
+    background: rgb(44, 62, 80, 0.7);
+    padding: 10px;
+    width: 250px;
+    margin-top: 90px;
+    margin-left: 180px;
+    margin: 0 auto;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ;
+}
+img{
+    margin-top: 0px;
+    
+
+}
+h3{
+    color: white;
+    text-align: center;
+    padding: 4px;
+    width: 2px;
+    margin-top: -50px;
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+
+form{
+    width: 240px;
+    text-align: center;
+    margin-top: -10;
+}
+input{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    height: 2 0px;
+    color: white;
+}
+button{
+    border: none;
+    width: 190px;
+    color: green;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 25px;
+    cursor: pointer;
+}
+button:hover{
+    background: black;
+    color: white;
+
+
+}
+ 
+h2{
+    color: gold ;
+}
+
+a{
+    color: gold;
+
+}
+a:hover{
+    color: lawngreen;
+}
+    ::placeholder {
+        color: whitesmoke;
+        opacity: 0.8;
+
+    }
+
+/* services box1 */
+    #boxes1{
+        margin-top: 100px;
+        background: rgb(44, 62, 80, 0.7);
+        margin-bottom: gold solid 3px;
+    
+    }
+    
+    #boxes1 .box{
+        float: left;
+        margin-top: -1px;
+        text-align: center;
+        width: 20%;
+        height: 100px;
+        padding: 10px;
+        color: white;
+        margin-left: 40px;
+    }
+    
+    #boxes1 .box h3{
+        margin-top: -5px;
+        margin: center;
+        margin-left: 100px;
+        text-align: center;
+        color: gold;
+    }
+    
+    #boxes1 .box p{
+        margin-top: -13px;
+    
+    }
+    #boxes1 .box img{
+        width: 100px;
+    
+    }
+    
+    #boxes1 .container1 .box p input[type="button"]{
+        background: white;
+        color: red;
+        width: 100px;
+        border-radius: 10px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    
+    #boxes1 .container1 .box p input[type="button"]:hover{
+        cursor: pointer;
+        color: gold;
+        background: black;
+    
+    }
+
+    /* about body */

@@ -1,0 +1,296 @@
+body {
+    background: url(./css/img/6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* home title */
+.maxe{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding: 4px;
+    width: 2px;
+    margin-top: -150px;
+    margin-left: 150px;
+    font-size: 100px;
+}
+
+.exp{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 7px;
+    margin-top: -100px;
+    margin-left: 75px;
+    font-size: 50px;
+
+}
+
+/* home menus */
+
+.container{
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+ul{
+    background-color: gold;
+    height: +3px;
+    border-top: gold solid 10px;
+    margin: 0;
+    padding: 0px;
+    margin-left: 250px;
+}
+
+.button-1{
+    
+    height: 30px;
+    background: red;
+    border: 0;
+    padding: left 20px;
+    padding: right 20px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+
+}
+
+.button-1:hover{
+    color: gold;
+
+}
+
+header{
+    background: rgb(44, 62, 80, 0.7);
+    
+    color: white;
+    padding: 10px;
+    min-height: 70px;
+    border-top: gold 3px solid;
+    border-bottom: red 3px solid;
+    border-radius: 0px;
+}
+   
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+
+    
+}
+header ul{
+    margin-top: -50px;
+    border-top: white;
+}
+
+header li{
+    float: center;
+    display: inline;
+    padding: 0 20px 0 20px;
+
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding{
+    margin: 0;
+
+}
+
+header nav{
+    float: left;
+   
+
+}
+header .highlight, header .current a{
+    color: red;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: gold;
+    font-weight: solid;
+}
+
+/* home body text */
+
+#showcase{
+    min-height: 400px;
+    text-align: left;
+    color: gold;
+    margin-top: 100px;
+} 
+
+.web p{
+   font-size: 40px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: wheat;
+   margin-top: -500px;
+   margin-left: 250px;
+   background-color: red;
+   width: 380px;
+   
+    
+}
+
+#showcase h1{
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     margin-top: 0px;
+  
+}
+
+#showcase h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* side image */
+#sidebar img{
+    margin-left: 1000px;
+    margin-top: -1000px;
+    margin-bottom: 50px;
+    height: 400px;
+    width: 300px;
+    border-radius: 50%;
+    border-color: gold solid 10px;
+}
+
+/* home subcribe to our news */
+
+#newsletter{
+    padding: 15px;
+    color: red;
+    background: black;
+    border-top: gold solid 3px;
+    border-bottom: gold solid 3px;
+    height: 50px;
+    margin-top: -40px;
+
+}
+
+#newsletter h1{
+    float: left;
+
+}
+
+#newsletter form{
+    float: right;
+    margin-top: 10px;
+
+}
+
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+
+}
+#newsletter .container button:hover{
+    background: gold;
+    color: red;
+}
+
+/* home boxes info, gallery and chat us */
+
+.about5{
+    background: rgb(44, 62, 80, 0.7);
+    margin-top: auto;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: solid 3px gold;
+    
+}
+
+.about5 h1{
+    font-size: 40px;
+    font-family: arial black;
+    color: gold;
+    text-align: center;
+    margin-top: 0%;
+
+}
+
+.about5 p{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-top: -30px;
+    margin-bottom: 0%;
+    padding-bottom: 20px;
+}
+
+
+/* home side image */
+aside#sidebar img{
+    float: right;
+    width: 300px;
+    margin-top: -450px;
+    margin-right: 10px;
+    padding-right: 100px;
+
+}
+
+/* home footer */
+.footer p{
+    background: black;
+    height: 50px;
+    margin-top: 455px;
+    padding-top: 27px;
+    font-size: 14px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    border-bottom: gold solid 3px;
+    border-radius: 10px;
+}
+
+/* about */
+.aboutme{
+    background: rgb(44, 62, 80, 0.7);
+    margin-top: 50px;
+    margin-left: 400px;
+    height: 1000px;
+    width: 500px;
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    float: center;
+}
+
+.aboutme img{
+    float: left;
+    padding-top: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    
+}
+
+
+
+/* mynews1  news page*/
+.mynews1{
+    color: white;
+    text-align: justify;
+}
+
+.mynews1 h2{
+    font-weight: bolder;
+}
